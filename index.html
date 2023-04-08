@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Assignment 1</title>
     <link rel="icon" href="./images/icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
@@ -47,7 +47,6 @@
 
 
 
-
     <div id="carouselExampleCaptions" class="carousel slide d-flex align-items-center mb-1">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -60,11 +59,11 @@
       <div class="carousel-caption d-md-block " style="bottom: 180px;">
         <div class="container text-center pe-0" style="align-items: center!important;">
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="fade-up">
               <img src="./images/headline.png" style="width: 50vw;" alt="">
             </div>
             <div class="row pt-5 pe-0">
-              <div class="col">
+              <div class="col" data-aos="zoom-in">
                 <button type="button" class="btn btn btn-light w-5 border-0" onmouseover="this.style.backgroundColor='red';" " onmouseout="this.style.backgroundColor='white';">BUY NOW</button>
             </div>
             </div>
@@ -77,11 +76,11 @@
         <div class="carousel-caption d-md-block " style="bottom: 180px;">
           <div class="container text-center pe-0" style="align-items: center!important;">
             <div class="row">
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <img src="./images/headline.png" style="width: 50vw;" alt="">
               </div>
               <div class="row pt-5 pe-0">
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                 <button type="button" class="btn btn btn-light w-5 border-0" onmouseover="this.style.backgroundColor='red';" " onmouseout="this.style.backgroundColor='white';">BUY NOW</button>
               </div>
               </div>
@@ -94,11 +93,11 @@
         <div class="carousel-caption d-md-block " style="bottom: 180px;">
           <div class="container text-center pe-0" style="align-items: center!important;">
             <div class="row">
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <img src="./images/headline.png" style="width: 50vw;" alt="">
               </div>
               <div class="row pt-5 pe-0">
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                 <button type="button" class="btn btn btn-light w-5 border-0" onmouseover="this.style.backgroundColor='red';" " onmouseout="this.style.backgroundColor='white';">BUY NOW</button>
               </div>
               </div>
@@ -118,19 +117,20 @@
 </div>
 
 
+
   <div class="h-100  p-md-5 mb-1" id="about" style="background-image: url(./images/hero3.png); background-repeat: no-repeat; background-size: cover; color: #fff">
 
       <div class="container" style="padding: 150px 50px;">
 
           <div class="row">
-            <div class="col-lg-5 text-center text-lg-start mb-3">
+            <div class="col-lg-5 text-center text-lg-start mb-3" data-aos="fade-right">
               <h1 class="fw-bold">THE GAME</h1>
               <hr>
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi eros, scelerisque vitae diam eu, malesuada pellentesque sapien. Aenean faucibus nisl lacus, non finibus mauris pulvinar et. Sed ultrices laoreet est, id gravida lorem tincidunt at.
                   <br><br>
                   Cras in mauris augue. Nulla eu tellus arcu. Duis aliquet sit amet tortor eget vestibulum. Pellentesque nunc libero, scelerisque vitae tristique id, maximus sed turpis.</p>
             </div>
-            <div class="col-lg-7  text-center d-flex align-items-center justify-content-center" >
+            <div class="col-lg-7  text-center d-flex align-items-center justify-content-center" data-aos="fade-up">
               <a href="https://youtu.be/obWStDLSDUc" class="text-decoration-none text-white" target="_blank"><button type="button" class="btn btn-outline-light rounded-pill p-3 border-3 mb-3"><img class="d-block" src="./images/playbtn.svg" alt=""></button><h2 class="d-block ">WATCH NOW</h2></a>
             </div>
           </div>
@@ -143,7 +143,7 @@
 
   <div class="mx-5 mt-5" id="packages" style="margin-top: 100px!important; margin-bottom: 100px!important">
       
-      <div class="row g-0 bg-body-secondary position-relative mb-5">
+      <div class="row g-0 bg-body-secondary position-relative mb-5" data-aos="fade-up" data-aos-duration="800">
           <div class="col-md-6 mb-md-0">
               <img src="./images/dlc1.jpg" class="w-100 object-fit-cover h-80" alt="...">
           </div>
@@ -157,7 +157,7 @@
               </div>
           </div>
       </div>
-      <div class="row g-0 bg-body-secondary position-relative mb-5 ">
+      <div class="row g-0 bg-body-secondary position-relative mb-5 " data-aos="fade-up" data-aos-duration="800">
           <div class="col-md-6 mb-md-0">
               <img src="./images/dlc2.jpg" class="w-100" alt="...">
           </div>
@@ -180,10 +180,10 @@
     <div class="container">
   
         <div class="row d-flex align-items-center pt-5">
-          <div class="col-lg-5  text-center  d-flex align-items-flexend justify-content-start overflow-hidden">
+          <div class="col-lg-5  text-center  d-flex align-items-flexend justify-content-start overflow-hidden" data-aos="fade-right">
             <img src="./images/character1.png" class="img-fluid d-none d-md-block" alt="" >
           </div>
-          <div class="col-lg-7 text-center text-lg-start">
+          <div class="col-lg-7 text-center text-lg-start" data-aos="fade-left">
             <h1 class="fw-bold">HITACHI CORP</h1>
             <hr>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi eros, scelerisque vitae diam eu, malesuada pellentesque sapien. Aenean faucibus nisl lacus, non finibus mauris pulvinar et. Sed ultrices laoreet est, id gravida lorem tincidunt at.
@@ -195,18 +195,19 @@
   </div>
 
 
+
   <div class="h-100 mb-1" id="media" style="background-image: url(./images/img1.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; color: #fff";>
 
     <div class="container">
 
         <div class="row d-flex align-items-center pt-5">
-          <div class="col-lg-7 text-center text-lg-end">
+          <div class="col-lg-7 text-center text-lg-end" data-aos="fade-right">
             <h1 class="fw-bold">NEO YAKUZA</h1>
             <hr>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi eros, scelerisque vitae diam eu, malesuada pellentesque sapien. Aenean faucibus nisl lacus, non finibus mauris pulvinar et. Sed ultrices laoreet est, id gravida lorem tincidunt at.
                 <br>
           </div>
-          <div class="col-lg-5  text-center d-flex align-items-flexend justify-content-end overflow-hidden">
+          <div class="col-lg-5  text-center d-flex align-items-flexend justify-content-end overflow-hidden" data-aos="fade-left">
             <img src="./images/character2.png" class="img-fluid" alt="" >
           </div>
         </div>
@@ -217,16 +218,15 @@
 
 
 
-
   <div class="h-100 mb-1 d-flex align-items-center" id="contact" style="background-image: url(./images/img6.png); background-repeat: no-repeat; background-size: cover; min-height: 700px; color: #fff";>
 
     <div class="container">
 
         <div class="row d-flex align-items-center pt-5">
-          <div class="col-lg-6 text-center d-flex align-items-center justify-content-center">
+          <div class="col-lg-6 text-center d-flex align-items-center justify-content-center" data-aos="zoom-in">
             <img src="./images/headline.png" class="img-fluid d-none d-md-block" alt="" >
           </div>
-          <div class="col-lg-6 text-center text-lg-start">
+          <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
             <h1 class="fw-bold">STAY IN TOUTCH</h1>
             <hr>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi eros, scelerisque vitae diam eu, malesuada pellentesque sapien.
@@ -261,13 +261,13 @@
     <div class="container">
 
         <div class="row d-flex align-items-center pt-5">
-          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden">
+          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden" data-aos="fade-up" data-aos-duration="500">
             <img src="./images/brand1.png" class="img-fluid" alt="" >
           </div>
-          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden">
+          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden" data-aos="fade-up" data-aos-duration="800">
             <img src="./images/brand2.png" class="img-fluid" alt="" >
           </div>
-          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden">
+          <div class="col-lg-4  text-center d-flex align-items-center justify-content-center overflow-hidden" data-aos="fade-up" data-aos-duration="1100">
             <img src="./images/brand3.png" class="img-fluid" alt="" >
           </div>
         </div>
@@ -366,5 +366,9 @@
     }
   </style>  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>  
+</body>
 </html>
